@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>História do HTML</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+        }
+        .container {
+            border: 1px solid #ccc;
+            padding: 20px;
+            max-width: 700px;
+        }
+        h1 {
+            font-size: 32px;
+        }
+        .codigo {
+            background-color: #f4f4f4;
+            padding: 10px;
+            border-radius: 5px;
+            font-family: monospace;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>História do HTML</h1>
+
+    <p>
+        <strong>Tim Berners-Lee</strong> (físico britânico) criou o HTML original 
+        (e outros protocolos associados como o HTTP), numa <i>estação NeXTcube</i>, 
+        usando o ambiente de desenvolvimento NeXTSTEP do CERN. 
+        A sua solução, combinada com a então emergente internet pública 
+        (que tornar-se-ia a Internet), ganhou atenção mundial.
+    </p>
+
+    <h5>Logo do HTML:</h5>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" 
+         alt="Logo HTML" width="100">
+
+    <h3>Exemplo de código <strong>JavaScript</strong>:</h3>
+    <div class="codigo">
+<pre>
+const myHeading = document.querySelector("h1");
+for (i = 0; i <= 10; i++) {
+    myHeading.innerHTML = "Olá mundo.";
+}
+</pre>
+    </div>
+
+    <p>O código abaixo usa as tags <b>sub, small</b> e <b>sup</b>:</p>
+
+    <p>
+         1<sup>2<sup>3</sup></sup>
+         <sub></sub><sup>4</sup>5<sup>6<sup>7</sup></sup>
+         <sup>8</sup>9                 
+    </p>
+
+</div>
+
+</body>
+</html>
