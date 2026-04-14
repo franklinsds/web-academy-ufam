@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <title>A Linguagem HTML</title>
+  <style>
+    header {
+      position: relative;
+      margin: 0;
+      padding: 0;
+      /* opcional, só para destacar */
+    }
+
+    .cabecalho-container {
+      display: flex;
+      /* Ativa o Flexbox */
+      align-items: center;
+      /* Alinha o título e a imagem verticalmente ao centro */
+      justify-content: flex-start;
+      /* Alinha o conteúdo à esquerda */
+      gap: 15px;
+      /* Adiciona um espaço entre o título e a imagem */
+    }
+
+
+
+    .logo-img {
+      width: 50px;
+      height: auto;
+      /* remove margens extras */
+    }
+
+    .img-direita {
+      float: right;
+      /* Faz a imagem ir para a direita */
+      margin-left: 10px;
+      /* Cria um espaço entre a imagem e o texto */
+      width: 50px;
+      /* Tamanho da imagem */
+    }
+
+
+    /* Tabela */
+    table {
+      width: 100%;
+      border-collapse: separate;
+      /* Necessário para borda dupla */
+      border: 3px double #333;
+      /* Borda dupla externa */
+      font-size: 25px;
+      /* Ajuste do tamanho da fonte */
+    }
+
+    th,
+    td {
+      border: 2px double #666;
+      /* Bordas duplas nas células */
+      padding: 10px;
+      text-align: left;
+    }
+
+    th {
+      background-color: #f0f0f0;
+      font-size: 30px;
+      /* Fonte maior nos títulos */
+    }
+
+    p {
+      font-size: 30px;
+      /* Ajuste do tamanho da fonte dos parágrafos */
+    }
+
+    h1 {
+      font-size: 40px;
+      /* Ajuste do tamanho da fonte do título */
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <div class="cabecalho-container">
+      <h1>A Linguagem HTML</h1>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" alt="Linguagem HTML"
+        class="logo-img">
+    </div>
+  </header>
+
+  <p>
+    HTML (abreviação para a expressão inglesa HyperText Markup Language, que significa Linguagem de Marcação de
+    Hipertexto) é uma linguagem de marcação utilizada na construção de páginas na Web. Documentos HTML podem ser
+    interpretados por navegadores.
+  </p>
+
+  <p>Alguns dos recursos da linguagem HTML vistos até este momento:</p>
+
+  <table>
+    <tr>
+      <th style="width: 2px;">Recursos</th>
+      <th style="width: 20px;">Tags associadas</th>
+      <th style="width: 100px;">Descrição</th>
+    </tr>
+    <tr>
+      <td>Links</td>
+      <td>&lt;a&gt;</td>
+      <td>Criar links entre páginas</td>
+    </tr>
+    <tr>
+      <td rowspan="2">Listas</td>
+      <td>&lt;ul&gt; e &lt;li&gt;</td>
+      <td>Criar listas de itens ordenados</td>
+    </tr>
+    <tr>
+      <td>&lt;ol&gt; e &lt;li&gt;</td>
+      <td>Criar listas de itens não ordenados</td>
+    </tr>
+    <tr>
+      <td>Imagens</td>
+      <td>&lt;img&gt;</td>
+      <td>Inserir imagens</td>
+    </tr>
+  </table>
+</body>
+
+</html>
