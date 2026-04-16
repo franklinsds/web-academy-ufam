@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Web Academy UFAM</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f9f9f9;
+    }
+
+    header,
+    nav,
+    footer {
+      border: 1px solid #333;
+      padding: 10px;
+      margin: 10px auto;
+      max-width: 900px;
+      
+    }
+    header h1 {
+      text-align: center;
+      font-family: 'Orbitron', sans-serif; /* aplica a fonte tecnológica */
+      font-size: 48px;
+      letter-spacing: 2px; /* espaçamento entre letras */
+      color: #00ffcc; /* cor neon */
+      text-shadow: 0 0 10px #00ffcc; /* efeito brilhante */
+    
+    }
+
+    header {
+      background-color: rgb(16, 15, 15);
+    }
+
+    nav {
+      background-color: #8f8;
+    }
+
+    footer {
+      background-color: #c8f;
+      text-align: center;
+    }
+
+    /* Layout principal: aside à esquerda e main à direita */
+    .conteudo {
+      display: flex;
+      max-width: 900px;
+      margin: 10px auto;
+    }
+
+    aside {
+      background-color: #f8c;
+      width: 200px;
+      /* largura fixa da barra lateral */
+      padding: 10px;
+    }
+
+    main {
+      background-color: #ccf;
+      flex: 1;
+      /* ocupa o restante do espaço */
+      padding: 10px;
+      margin-left: 10px;
+      /* espaço entre aside e main */
+    }
+
+    article {
+      text-align: center;
+      background-color: #88c;
+      padding: 20px;
+      margin-bottom: 10px;
+    }
+
+    figure {
+      
+      padding: 5px;
+    }
+
+    p {
+      background-color: #dfd;
+      padding: 5px;
+    }
+
+    section {
+      background-color: #66c;
+      padding: 5px;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>WEB ACADEMY UFAM</h1>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#">Início</a></li>
+      <li><a href="#">Sobre</a></li>
+      <li><a href="#">Contato</a></li>
+    </ul>
+  </nav>
+
+  <div class="conteudo">
+    <aside>
+      <ul>
+        <li><a href="#">Documentação HTML</a></li>
+        <li><a href="#">Guia CSS</a></li>
+        <li><a href="#">Tutoriais JavaScript</a></li>
+      </ul>
+
+      <h2>Publicidade</h2>
+      <p>Espaço para anúncios ou promoções.</p>
+
+      <h2>Sobre o autor</h2>
+      <p>Franklin, estudante de Web Web Academy UFAM.</p>
+
+    </aside>
+
+    <main>
+      <article>
+        <h2>Artigo Principal</h2>
+        <figure>
+          <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg"
+            alt="Linguagem HTML"" alt=" Logo HTML5" width="100">
+          <figcaption>HTML5</figcaption>
+        </figure>
+        <p>O HTML5 (HyperText Markup Language, versão 5) é a quinta e mais atual
+          versão da linguagem de marcação fundamental para a estruturação e apresentação de conteúdo na World Wide Web.
+          Lançado com o objetivo de modernizar a internet, ele foca em semântica, acessibilidade, suporte nativo a
+          multimídia e compatibilidade com diversos dispositivos, especialmente móveis.</p>
+      </article>
+
+      <section>
+        <h3>Seção dentro do Main</h3>
+        <p>Mais conteúdo detalhado nesta seção.</p>
+      </section>
+    </main>
+  </div>
+
+  <footer>
+    <p>&copy; 2026</p>
+  </footer>
+
+</body>
+
+</html>
