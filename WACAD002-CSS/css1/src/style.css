@@ -1,0 +1,27 @@
+body {
+    background-color: #ffffff;
+    font-family: Arial, sans-serif;
+}
+.caixa {
+    width: 500px;
+    margin: 70px;
+    padding: 20px;
+    background-color: #d9d9d9;
+
+    border: 20px solid black;
+
+    /* Cada canto com um valor diferente */
+    border-top-left-radius: 50px;      /* mais apontado */
+    border-top-right-radius: 150px;    /* mais arredondado */
+    border-bottom-right-radius: 50px;  /* mais apontado */
+    border-bottom-left-radius: 150px;  /* mais arredondado */
+    text-align: center;
+}
+
+.caixa p {
+    margin: 20px;
+    font-size: 23px;
+    text-align: justify;
+    color: #000;
+    line-height: 1.5;
+}
